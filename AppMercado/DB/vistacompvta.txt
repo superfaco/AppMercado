@@ -1,0 +1,13 @@
+create view vw_compras_ventas as
+
+    select emp.*, comp.id as compvta, 0 as tipo, sum(cdet.costo) as total
+    from empresas emp
+    join compras comp on comp.empresa = emp.id
+    join compras_detalles cdet on cdet.compra = comp.id
+    group by emp.id, comp.id
+    union
+    select emp.*, sol.id as compvta, 1 as tipo, sum(sol.precio) as total
+    from empresas emp
+    join solicitudesdeventa sol on sol.empresaAutorizadora = emp.id
+    join solicitudesdeventaautorizadas sola on sol.solicitudDeVentaAutorizada = sola.id
+    group by emp.id, sol.id
