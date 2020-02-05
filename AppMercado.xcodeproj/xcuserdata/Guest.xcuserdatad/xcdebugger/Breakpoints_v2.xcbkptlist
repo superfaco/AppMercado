@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/CrearUsuarioViewController.swift"
+            timestampString = "581388261.78061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "btnRegistrarClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/CrearUsuarioViewController.swift"
+            timestampString = "581388261.781112"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "registrarUsuario(usuario:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppMercado.CrearUsuarioViewController.(registrarUsuario in _685C4E12A244A86C11B40D1FD88B1F71)(usuario: Swift.Optional&lt;AppMercado.Usuario&gt;) -&gt; Swift.Bool"
+                  moduleName = "AppMercado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FACO/AppMercado/AppMercado/Controlador/CrearUsuarioViewController.swift"
+                  timestampString = "581379105.554767"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppMercado.CrearUsuarioViewController.(registrarUsuario in _685C4E12A244A86C11B40D1FD88B1F71)(usuario: Swift.Optional&lt;AppMercado.Usuario&gt;) -&gt; Swift.Bool"
+                  moduleName = "AppMercado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FACO/AppMercado/AppMercado/Controlador/CrearUsuarioViewController.swift"
+                  timestampString = "581379105.559038"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "5350">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/CrearUsuarioViewController.swift"
+            timestampString = "581388261.7812181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "existeUsuario(usuario:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppMercado.CrearUsuarioViewController.(existeUsuario in _685C4E12A244A86C11B40D1FD88B1F71)(usuario: Swift.Optional&lt;AppMercado.Usuario&gt;) -&gt; Swift.Bool"
+                  moduleName = "AppMercado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FACO/AppMercado/AppMercado/Controlador/CrearUsuarioViewController.swift"
+                  timestampString = "581379103.8109601"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppMercado.CrearUsuarioViewController.(existeUsuario in _685C4E12A244A86C11B40D1FD88B1F71)(usuario: Swift.Optional&lt;AppMercado.Usuario&gt;) -&gt; Swift.Bool"
+                  moduleName = "AppMercado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FACO/AppMercado/AppMercado/Controlador/CrearUsuarioViewController.swift"
+                  timestampString = "581379103.81517"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "4174">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Util/JsonParser.swift"
+            timestampString = "581388261.781317"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "parse(metodo:parametros:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Util/JsonParser.swift"
+            timestampString = "581388261.781564"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "parse(metodo:parametros:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static AppMercado.JsonParser.parse(metodo: Swift.String, parametros: Swift.String) -&gt; __C.NSArray"
+                  moduleName = "AppMercado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FACO/AppMercado/AppMercado/Util/JsonParser.swift"
+                  timestampString = "581442264.391328"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "71">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static AppMercado.JsonParser.parse(metodo: Swift.String, parametros: Swift.String) -&gt; __C.NSArray"
+                  moduleName = "AppMercado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FACO/AppMercado/AppMercado/Util/JsonParser.swift"
+                  timestampString = "581442264.394225"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "1758">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/CrearUsuarioViewController.swift"
+            timestampString = "581388261.781646"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "btnRegistrarClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/CrearUsuarioViewController.swift"
+            timestampString = "581388261.781734"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "registrarTelefono(telefono:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppMercado.CrearUsuarioViewController.(registrarTelefono in _685C4E12A244A86C11B40D1FD88B1F71)(telefono: Swift.Optional&lt;AppMercado.UsuarioTelefono&gt;) -&gt; Swift.Bool"
+                  moduleName = "AppMercado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FACO/AppMercado/AppMercado/Controlador/CrearUsuarioViewController.swift"
+                  timestampString = "581379109.45118"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppMercado.CrearUsuarioViewController.(registrarTelefono in _685C4E12A244A86C11B40D1FD88B1F71)(telefono: Swift.Optional&lt;AppMercado.UsuarioTelefono&gt;) -&gt; Swift.Bool"
+                  moduleName = "AppMercado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FACO/AppMercado/AppMercado/Controlador/CrearUsuarioViewController.swift"
+                  timestampString = "581379109.455767"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "4434">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/CrearUsuarioViewController.swift"
+            timestampString = "581388261.7818201"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "crearSesion(usuario:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppMercado.CrearUsuarioViewController.(crearSesion in _685C4E12A244A86C11B40D1FD88B1F71)(usuario: Swift.Optional&lt;AppMercado.Usuario&gt;) -&gt; Swift.Optional&lt;AppMercado.Sesion&gt;"
+                  moduleName = "AppMercado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FACO/AppMercado/AppMercado/Controlador/CrearUsuarioViewController.swift"
+                  timestampString = "581379104.612056"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppMercado.CrearUsuarioViewController.(crearSesion in _685C4E12A244A86C11B40D1FD88B1F71)(usuario: Swift.Optional&lt;AppMercado.Usuario&gt;) -&gt; Swift.Optional&lt;AppMercado.Sesion&gt;"
+                  moduleName = "AppMercado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FACO/AppMercado/AppMercado/Controlador/CrearUsuarioViewController.swift"
+                  timestampString = "581379104.614699"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "5117">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/LoginViewController.swift"
+            timestampString = "581388261.781907"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "shouldPerformSegue(withIdentifier:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/ConfiguracionViewController.swift"
+            timestampString = "581388261.7821259"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "btnEditarClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/CrearUsuarioViewController.swift"
+            timestampString = "581388261.782433"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "btnRegistrarClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/CrearUsuarioViewController.swift"
+            timestampString = "581388261.782506"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "btnRegistrarClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/CrearUsuarioViewController.swift"
+            timestampString = "581388261.782578"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "btnRegistrarClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/CorreosTableViewController.swift"
+            timestampString = "581388261.782653"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppMercado.CorreosTableViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "AppMercado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FACO/AppMercado/AppMercado/Controlador/CorreosTableViewController.swift"
+                  timestampString = "581382078.233016"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "55">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppMercado.CorreosTableViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "AppMercado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FACO/AppMercado/AppMercado/Controlador/CorreosTableViewController.swift"
+                  timestampString = "581382078.2374361"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "7209">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/AgregarEditarUsuarioCorreoViewController.swift"
+            timestampString = "581388261.782864"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "btnAgregarEditarCorreoClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/EmpresasTableViewController.swift"
+            timestampString = "581444210.4872971"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppMercado.EmpresasTableViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "AppMercado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FACO/AppMercado/AppMercado/Controlador/EmpresasTableViewController.swift"
+                  timestampString = "581442221.086691"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "55">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppMercado.EmpresasTableViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "AppMercado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FACO/AppMercado/AppMercado/Controlador/EmpresasTableViewController.swift"
+                  timestampString = "581442221.089765"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "7964">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/VerEmpresaViewController.swift"
+            timestampString = "581444210.487385"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppMercado/Controlador/VerEmpresaViewController.swift"
+            timestampString = "581444210.487838"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

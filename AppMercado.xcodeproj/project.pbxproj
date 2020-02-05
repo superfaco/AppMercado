@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A256A1922ADBCFA00002EC1 /* PublicacionesEmpresaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A256A1822ADBCFA00002EC1 /* PublicacionesEmpresaTableViewController.swift */; };
+		0A256A1B22ADBE9900002EC1 /* AgregarEditarPublicacionEmpresaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A256A1A22ADBE9900002EC1 /* AgregarEditarPublicacionEmpresaViewController.swift */; };
+		0A256A1D22ADC1E700002EC1 /* getPublicacionesEmpresa.php in Resources */ = {isa = PBXBuildFile; fileRef = 0A256A1C22ADC1E700002EC1 /* getPublicacionesEmpresa.php */; };
+		0A256A1F22ADC8BB00002EC1 /* postPublicacion.php in Resources */ = {isa = PBXBuildFile; fileRef = 0A256A1E22ADC8BB00002EC1 /* postPublicacion.php */; };
+		0A256A2122ADC9A000002EC1 /* putPublicacion.php in Resources */ = {isa = PBXBuildFile; fileRef = 0A256A2022ADC9A000002EC1 /* putPublicacion.php */; };
+		0A256A2322ADCA9400002EC1 /* deletePublicacion.php in Resources */ = {isa = PBXBuildFile; fileRef = 0A256A2222ADCA9400002EC1 /* deletePublicacion.php */; };
+		0A44282A22A3124A001E5B11 /* CrearUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44282922A3124A001E5B11 /* CrearUsuarioViewController.swift */; };
+		0A44283922A36EB3001E5B11 /* DatosDeSesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44283822A36EB3001E5B11 /* DatosDeSesion.swift */; };
+		0A44284722A44228001E5B11 /* PanelControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44284622A44228001E5B11 /* PanelControlViewController.swift */; };
+		0AEDC47B22A60D8800A82426 /* getUsuario.php in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC47A22A60D8800A82426 /* getUsuario.php */; };
+		0AEDC47E22A60E4200A82426 /* conexion.php in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC47D22A60E4100A82426 /* conexion.php */; };
+		0AEDC48922A60F0C00A82426 /* AppMercado.sql in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC48622A60F0B00A82426 /* AppMercado.sql */; };
+		0AEDC48A22A60F0C00A82426 /* AppMercado.vpp in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC48722A60F0C00A82426 /* AppMercado.vpp */; };
+		0AEDC48F22A616CE00A82426 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEDC48E22A616CE00A82426 /* JsonParser.swift */; };
+		0AEDC49122A6306B00A82426 /* postSesion.php in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC49022A6306A00A82426 /* postSesion.php */; };
+		0AEDC49322A6315100A82426 /* putSesion.php in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC49222A6315100A82426 /* putSesion.php */; };
+		0AEDC49522A631FD00A82426 /* getSesion.php in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC49422A631FD00A82426 /* getSesion.php */; };
+		0AEDC49722A63F7400A82426 /* postUsuario.php in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC49622A63F7400A82426 /* postUsuario.php */; };
+		0AEDC4A522A6460300A82426 /* getUsuariosTelefonos.php in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC4A422A6460300A82426 /* getUsuariosTelefonos.php */; };
+		0AEDC4A722A646D400A82426 /* postUsuarioTelefono.php in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC4A622A646D400A82426 /* postUsuarioTelefono.php */; };
+		0AEDC4A922A647D000A82426 /* Encriptador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEDC4A822A647D000A82426 /* Encriptador.swift */; };
+		0AEDC4AF22A6998200A82426 /* getUsuariosCorreos.php in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC4AE22A6998200A82426 /* getUsuariosCorreos.php */; };
+		0AEDC4B122A69A9000A82426 /* postUsuarioCorreo.php in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC4B022A69A9000A82426 /* postUsuarioCorreo.php */; };
+		0AEDC4B322A69EF300A82426 /* getUsuarioTelefono.php in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC4B222A69EF300A82426 /* getUsuarioTelefono.php */; };
+		0AEDC4B522A6A67000A82426 /* getUsuarioCorreo.php in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC4B422A6A67000A82426 /* getUsuarioCorreo.php */; };
+		0AEDC4B722A7DC2B00A82426 /* EmpresasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEDC4B622A7DC2B00A82426 /* EmpresasTableViewController.swift */; };
+		0AEDC4B922A7DE7C00A82426 /* getEmpresas.php in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC4B822A7DE7C00A82426 /* getEmpresas.php */; };
+		0AEDC4BB22A7E6F900A82426 /* AgregarEmpresaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEDC4BA22A7E6F900A82426 /* AgregarEmpresaViewController.swift */; };
+		0AEDC4BD22A7E70A00A82426 /* VerEmpresaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEDC4BC22A7E70A00A82426 /* VerEmpresaViewController.swift */; };
+		0AEDC4BF22A7E93600A82426 /* postEmpresa.php in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC4BE22A7E93600A82426 /* postEmpresa.php */; };
+		0AF3279B22A2EF1F00154116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3279A22A2EF1F00154116 /* AppDelegate.swift */; };
+		0AF327A022A2EF1F00154116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF3279E22A2EF1F00154116 /* Main.storyboard */; };
+		0AF327A222A2EF1F00154116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF327A122A2EF1F00154116 /* Assets.xcassets */; };
+		0AF327A522A2EF1F00154116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF327A322A2EF1F00154116 /* LaunchScreen.storyboard */; };
+		0AF327AD22A2F33F00154116 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF327AC22A2F33F00154116 /* LoginViewController.swift */; };
+		0AF327B022A3022D00154116 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF327AF22A3022D00154116 /* Usuario.swift */; };
+		0AF327B322A303CB00154116 /* Fecha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF327B222A303CB00154116 /* Fecha.swift */; };
+		AC6BAD8822A5C87F006E4A69 /* UsuarioTelefono.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BAD8722A5C87F006E4A69 /* UsuarioTelefono.swift */; };
+		AC6BAD8A22A5C9B3006E4A69 /* UsuarioCorreo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BAD8922A5C9B3006E4A69 /* UsuarioCorreo.swift */; };
+		AC6BAD8C22A5CA0A006E4A69 /* EmpresaTelefono.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BAD8B22A5CA0A006E4A69 /* EmpresaTelefono.swift */; };
+		AC6BAD8E22A5CA41006E4A69 /* EmpresaCorreo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BAD8D22A5CA41006E4A69 /* EmpresaCorreo.swift */; };
+		AC6BAD9022A5CAD4006E4A69 /* SolicitudDeVenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BAD8F22A5CAD4006E4A69 /* SolicitudDeVenta.swift */; };
+		AC6BAD9222A5CB37006E4A69 /* SolicitudDeVentaAutorizada.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BAD9122A5CB37006E4A69 /* SolicitudDeVentaAutorizada.swift */; };
+		AC72851122A816A400846F03 /* getComprasVentas.php in Resources */ = {isa = PBXBuildFile; fileRef = AC72851022A816A400846F03 /* getComprasVentas.php */; };
+		AC90C7AD22A5AFB700EA14C8 /* ConfiguracionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90C7AC22A5AFB700EA14C8 /* ConfiguracionViewController.swift */; };
+		AC90C7B322A5B77200EA14C8 /* TelefonosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90C7B222A5B77200EA14C8 /* TelefonosTableViewController.swift */; };
+		AC90C7B522A5B79900EA14C8 /* CorreosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90C7B422A5B79900EA14C8 /* CorreosTableViewController.swift */; };
+		AC90C7B922A5C02800EA14C8 /* Sesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90C7B822A5C02800EA14C8 /* Sesion.swift */; };
+		AC90C7BF22A5C18000EA14C8 /* Empresa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90C7BE22A5C18000EA14C8 /* Empresa.swift */; };
+		AC90C7C122A5C1F100EA14C8 /* Compra.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90C7C022A5C1F100EA14C8 /* Compra.swift */; };
+		AC90C7C322A5C28000EA14C8 /* Publicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90C7C222A5C28000EA14C8 /* Publicacion.swift */; };
+		AC90C7C522A5C31600EA14C8 /* Comentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90C7C422A5C31600EA14C8 /* Comentario.swift */; };
+		AC90C7C722A5C3DD00EA14C8 /* CompraDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90C7C622A5C3DD00EA14C8 /* CompraDetalle.swift */; };
+		AC9BAD3A22A707D1001314DB /* putUsuario.php in Resources */ = {isa = PBXBuildFile; fileRef = AC9BAD3922A707D1001314DB /* putUsuario.php */; };
+		AC9BAD3C22A71013001314DB /* deleteUsuarioTelefono.php in Resources */ = {isa = PBXBuildFile; fileRef = AC9BAD3B22A71013001314DB /* deleteUsuarioTelefono.php */; };
+		AC9BAD3E22A722BB001314DB /* AgregarEditarUsuarioTelefonoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BAD3D22A722BB001314DB /* AgregarEditarUsuarioTelefonoViewController.swift */; };
+		AC9BAD4022A727F7001314DB /* AgregarEditarUsuarioCorreoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BAD3F22A727F7001314DB /* AgregarEditarUsuarioCorreoViewController.swift */; };
+		AC9BAD4222A72C78001314DB /* deleteUsuarioCorreo.php in Resources */ = {isa = PBXBuildFile; fileRef = AC9BAD4122A72C78001314DB /* deleteUsuarioCorreo.php */; };
+		AC9BAD4422A73A7C001314DB /* putUsuarioTelefono.php in Resources */ = {isa = PBXBuildFile; fileRef = AC9BAD4322A73A7C001314DB /* putUsuarioTelefono.php */; };
+		AC9BAD4622A74090001314DB /* putUsuarioCorreo.php in Resources */ = {isa = PBXBuildFile; fileRef = AC9BAD4522A74090001314DB /* putUsuarioCorreo.php */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A256A1822ADBCFA00002EC1 /* PublicacionesEmpresaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicacionesEmpresaTableViewController.swift; sourceTree = "<group>"; };
+		0A256A1A22ADBE9900002EC1 /* AgregarEditarPublicacionEmpresaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarEditarPublicacionEmpresaViewController.swift; sourceTree = "<group>"; };
+		0A256A1C22ADC1E700002EC1 /* getPublicacionesEmpresa.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = getPublicacionesEmpresa.php; sourceTree = "<group>"; };
+		0A256A1E22ADC8BB00002EC1 /* postPublicacion.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = postPublicacion.php; sourceTree = "<group>"; };
+		0A256A2022ADC9A000002EC1 /* putPublicacion.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = putPublicacion.php; sourceTree = "<group>"; };
+		0A256A2222ADCA9400002EC1 /* deletePublicacion.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = deletePublicacion.php; sourceTree = "<group>"; };
+		0A44282922A3124A001E5B11 /* CrearUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearUsuarioViewController.swift; sourceTree = "<group>"; };
+		0A44283822A36EB3001E5B11 /* DatosDeSesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosDeSesion.swift; sourceTree = "<group>"; };
+		0A44284622A44228001E5B11 /* PanelControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelControlViewController.swift; sourceTree = "<group>"; };
+		0AEDC47A22A60D8800A82426 /* getUsuario.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = getUsuario.php; sourceTree = "<group>"; };
+		0AEDC47D22A60E4100A82426 /* conexion.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = conexion.php; sourceTree = "<group>"; };
+		0AEDC48622A60F0B00A82426 /* AppMercado.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppMercado.sql; sourceTree = "<group>"; };
+		0AEDC48722A60F0C00A82426 /* AppMercado.vpp */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppMercado.vpp; sourceTree = "<group>"; };
+		0AEDC48E22A616CE00A82426 /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		0AEDC49022A6306A00A82426 /* postSesion.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = postSesion.php; sourceTree = "<group>"; };
+		0AEDC49222A6315100A82426 /* putSesion.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = putSesion.php; sourceTree = "<group>"; };
+		0AEDC49422A631FD00A82426 /* getSesion.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = getSesion.php; sourceTree = "<group>"; };
+		0AEDC49622A63F7400A82426 /* postUsuario.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = postUsuario.php; sourceTree = "<group>"; };
+		0AEDC4A422A6460300A82426 /* getUsuariosTelefonos.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = getUsuariosTelefonos.php; sourceTree = "<group>"; };
+		0AEDC4A622A646D400A82426 /* postUsuarioTelefono.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = postUsuarioTelefono.php; sourceTree = "<group>"; };
+		0AEDC4A822A647D000A82426 /* Encriptador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encriptador.swift; sourceTree = "<group>"; };
+		0AEDC4AE22A6998200A82426 /* getUsuariosCorreos.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = getUsuariosCorreos.php; sourceTree = "<group>"; };
+		0AEDC4B022A69A9000A82426 /* postUsuarioCorreo.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = postUsuarioCorreo.php; sourceTree = "<group>"; };
+		0AEDC4B222A69EF300A82426 /* getUsuarioTelefono.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = getUsuarioTelefono.php; sourceTree = "<group>"; };
+		0AEDC4B422A6A67000A82426 /* getUsuarioCorreo.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = getUsuarioCorreo.php; sourceTree = "<group>"; };
+		0AEDC4B622A7DC2B00A82426 /* EmpresasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpresasTableViewController.swift; sourceTree = "<group>"; };
+		0AEDC4B822A7DE7C00A82426 /* getEmpresas.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = getEmpresas.php; sourceTree = "<group>"; };
+		0AEDC4BA22A7E6F900A82426 /* AgregarEmpresaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarEmpresaViewController.swift; sourceTree = "<group>"; };
+		0AEDC4BC22A7E70A00A82426 /* VerEmpresaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerEmpresaViewController.swift; sourceTree = "<group>"; };
+		0AEDC4BE22A7E93600A82426 /* postEmpresa.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = postEmpresa.php; sourceTree = "<group>"; };
+		0AF3279722A2EF1F00154116 /* AppMercado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMercado.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF3279A22A2EF1F00154116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0AF3279F22A2EF1F00154116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AF327A122A2EF1F00154116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AF327A422A2EF1F00154116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AF327A622A2EF1F00154116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF327AC22A2F33F00154116 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0AF327AF22A3022D00154116 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		0AF327B222A303CB00154116 /* Fecha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fecha.swift; sourceTree = "<group>"; };
+		AC6BAD8722A5C87F006E4A69 /* UsuarioTelefono.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioTelefono.swift; sourceTree = "<group>"; };
+		AC6BAD8922A5C9B3006E4A69 /* UsuarioCorreo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioCorreo.swift; sourceTree = "<group>"; };
+		AC6BAD8B22A5CA0A006E4A69 /* EmpresaTelefono.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpresaTelefono.swift; sourceTree = "<group>"; };
+		AC6BAD8D22A5CA41006E4A69 /* EmpresaCorreo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpresaCorreo.swift; sourceTree = "<group>"; };
+		AC6BAD8F22A5CAD4006E4A69 /* SolicitudDeVenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolicitudDeVenta.swift; sourceTree = "<group>"; };
+		AC6BAD9122A5CB37006E4A69 /* SolicitudDeVentaAutorizada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolicitudDeVentaAutorizada.swift; sourceTree = "<group>"; };
+		AC72851022A816A400846F03 /* getComprasVentas.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = getComprasVentas.php; sourceTree = "<group>"; };
+		AC90C7AC22A5AFB700EA14C8 /* ConfiguracionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguracionViewController.swift; sourceTree = "<group>"; };
+		AC90C7B222A5B77200EA14C8 /* TelefonosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonosTableViewController.swift; sourceTree = "<group>"; };
+		AC90C7B422A5B79900EA14C8 /* CorreosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorreosTableViewController.swift; sourceTree = "<group>"; };
+		AC90C7B822A5C02800EA14C8 /* Sesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sesion.swift; sourceTree = "<group>"; };
+		AC90C7BE22A5C18000EA14C8 /* Empresa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empresa.swift; sourceTree = "<group>"; };
+		AC90C7C022A5C1F100EA14C8 /* Compra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compra.swift; sourceTree = "<group>"; };
+		AC90C7C222A5C28000EA14C8 /* Publicacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publicacion.swift; sourceTree = "<group>"; };
+		AC90C7C422A5C31600EA14C8 /* Comentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comentario.swift; sourceTree = "<group>"; };
+		AC90C7C622A5C3DD00EA14C8 /* CompraDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompraDetalle.swift; sourceTree = "<group>"; };
+		AC9BAD3922A707D1001314DB /* putUsuario.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = putUsuario.php; sourceTree = "<group>"; };
+		AC9BAD3B22A71013001314DB /* deleteUsuarioTelefono.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = deleteUsuarioTelefono.php; sourceTree = "<group>"; };
+		AC9BAD3D22A722BB001314DB /* AgregarEditarUsuarioTelefonoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarEditarUsuarioTelefonoViewController.swift; sourceTree = "<group>"; };
+		AC9BAD3F22A727F7001314DB /* AgregarEditarUsuarioCorreoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarEditarUsuarioCorreoViewController.swift; sourceTree = "<group>"; };
+		AC9BAD4122A72C78001314DB /* deleteUsuarioCorreo.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = deleteUsuarioCorreo.php; sourceTree = "<group>"; };
+		AC9BAD4322A73A7C001314DB /* putUsuarioTelefono.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = putUsuarioTelefono.php; sourceTree = "<group>"; };
+		AC9BAD4522A74090001314DB /* putUsuarioCorreo.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = putUsuarioCorreo.php; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AF3279422A2EF1F00154116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A44283122A34ED9001E5B11 /* Vista */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vista;
+			sourceTree = "<group>";
+		};
+		0AEDC47C22A60DA000A82426 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				0AEDC47D22A60E4100A82426 /* conexion.php */,
+				0AEDC47A22A60D8800A82426 /* getUsuario.php */,
+				0AEDC49622A63F7400A82426 /* postUsuario.php */,
+				AC9BAD3922A707D1001314DB /* putUsuario.php */,
+				0AEDC49422A631FD00A82426 /* getSesion.php */,
+				0AEDC49022A6306A00A82426 /* postSesion.php */,
+				0AEDC49222A6315100A82426 /* putSesion.php */,
+				0AEDC4A422A6460300A82426 /* getUsuariosTelefonos.php */,
+				0AEDC4B222A69EF300A82426 /* getUsuarioTelefono.php */,
+				0AEDC4A622A646D400A82426 /* postUsuarioTelefono.php */,
+				AC9BAD4322A73A7C001314DB /* putUsuarioTelefono.php */,
+				AC9BAD3B22A71013001314DB /* deleteUsuarioTelefono.php */,
+				0AEDC4AE22A6998200A82426 /* getUsuariosCorreos.php */,
+				0AEDC4B422A6A67000A82426 /* getUsuarioCorreo.php */,
+				0AEDC4B022A69A9000A82426 /* postUsuarioCorreo.php */,
+				AC9BAD4522A74090001314DB /* putUsuarioCorreo.php */,
+				AC9BAD4122A72C78001314DB /* deleteUsuarioCorreo.php */,
+				0AEDC4B822A7DE7C00A82426 /* getEmpresas.php */,
+				0AEDC4BE22A7E93600A82426 /* postEmpresa.php */,
+				AC72851022A816A400846F03 /* getComprasVentas.php */,
+				0A256A1C22ADC1E700002EC1 /* getPublicacionesEmpresa.php */,
+				0A256A1E22ADC8BB00002EC1 /* postPublicacion.php */,
+				0A256A2022ADC9A000002EC1 /* putPublicacion.php */,
+				0A256A2222ADCA9400002EC1 /* deletePublicacion.php */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		0AEDC48D22A60F2100A82426 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				0AEDC48622A60F0B00A82426 /* AppMercado.sql */,
+				0AEDC48722A60F0C00A82426 /* AppMercado.vpp */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		0AF3278E22A2EF1F00154116 = {
+			isa = PBXGroup;
+			children = (
+				0AF3279922A2EF1F00154116 /* AppMercado */,
+				0AF3279822A2EF1F00154116 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AF3279822A2EF1F00154116 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AF3279722A2EF1F00154116 /* AppMercado.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AF3279922A2EF1F00154116 /* AppMercado */ = {
+			isa = PBXGroup;
+			children = (
+				0AEDC48D22A60F2100A82426 /* DB */,
+				0AEDC47C22A60DA000A82426 /* WebServices */,
+				0AF3279A22A2EF1F00154116 /* AppDelegate.swift */,
+				0AF3279E22A2EF1F00154116 /* Main.storyboard */,
+				0AF327A122A2EF1F00154116 /* Assets.xcassets */,
+				0AF327A322A2EF1F00154116 /* LaunchScreen.storyboard */,
+				0AF327A622A2EF1F00154116 /* Info.plist */,
+				0AF327AE22A2F34E00154116 /* Controlador */,
+				0AF327B122A3023200154116 /* Modelo */,
+				0AF327B422A303CE00154116 /* Util */,
+				0A44283122A34ED9001E5B11 /* Vista */,
+			);
+			path = AppMercado;
+			sourceTree = "<group>";
+		};
+		0AF327AE22A2F34E00154116 /* Controlador */ = {
+			isa = PBXGroup;
+			children = (
+				0AF327AC22A2F33F00154116 /* LoginViewController.swift */,
+				0A44282922A3124A001E5B11 /* CrearUsuarioViewController.swift */,
+				0A44283822A36EB3001E5B11 /* DatosDeSesion.swift */,
+				0A44284622A44228001E5B11 /* PanelControlViewController.swift */,
+				AC90C7AC22A5AFB700EA14C8 /* ConfiguracionViewController.swift */,
+				AC90C7B222A5B77200EA14C8 /* TelefonosTableViewController.swift */,
+				AC90C7B422A5B79900EA14C8 /* CorreosTableViewController.swift */,
+				AC9BAD3D22A722BB001314DB /* AgregarEditarUsuarioTelefonoViewController.swift */,
+				AC9BAD3F22A727F7001314DB /* AgregarEditarUsuarioCorreoViewController.swift */,
+				0AEDC4B622A7DC2B00A82426 /* EmpresasTableViewController.swift */,
+				0AEDC4BA22A7E6F900A82426 /* AgregarEmpresaViewController.swift */,
+				0AEDC4BC22A7E70A00A82426 /* VerEmpresaViewController.swift */,
+				0A256A1822ADBCFA00002EC1 /* PublicacionesEmpresaTableViewController.swift */,
+				0A256A1A22ADBE9900002EC1 /* AgregarEditarPublicacionEmpresaViewController.swift */,
+			);
+			path = Controlador;
+			sourceTree = "<group>";
+		};
+		0AF327B122A3023200154116 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				0AF327AF22A3022D00154116 /* Usuario.swift */,
+				AC90C7B822A5C02800EA14C8 /* Sesion.swift */,
+				AC90C7BE22A5C18000EA14C8 /* Empresa.swift */,
+				AC90C7C022A5C1F100EA14C8 /* Compra.swift */,
+				AC90C7C222A5C28000EA14C8 /* Publicacion.swift */,
+				AC90C7C422A5C31600EA14C8 /* Comentario.swift */,
+				AC90C7C622A5C3DD00EA14C8 /* CompraDetalle.swift */,
+				AC6BAD8722A5C87F006E4A69 /* UsuarioTelefono.swift */,
+				AC6BAD8922A5C9B3006E4A69 /* UsuarioCorreo.swift */,
+				AC6BAD8B22A5CA0A006E4A69 /* EmpresaTelefono.swift */,
+				AC6BAD8D22A5CA41006E4A69 /* EmpresaCorreo.swift */,
+				AC6BAD8F22A5CAD4006E4A69 /* SolicitudDeVenta.swift */,
+				AC6BAD9122A5CB37006E4A69 /* SolicitudDeVentaAutorizada.swift */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		0AF327B422A303CE00154116 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0AF327B222A303CB00154116 /* Fecha.swift */,
+				0AEDC48E22A616CE00A82426 /* JsonParser.swift */,
+				0AEDC4A822A647D000A82426 /* Encriptador.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AF3279622A2EF1F00154116 /* AppMercado */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF327A922A2EF1F00154116 /* Build configuration list for PBXNativeTarget "AppMercado" */;
+			buildPhases = (
+				0AF3279322A2EF1F00154116 /* Sources */,
+				0AF3279422A2EF1F00154116 /* Frameworks */,
+				0AF3279522A2EF1F00154116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppMercado;
+			productName = AppMercado;
+			productReference = 0AF3279722A2EF1F00154116 /* AppMercado.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AF3278F22A2EF1F00154116 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Fernando Alfonso Caldera Olivas";
+				TargetAttributes = {
+					0AF3279622A2EF1F00154116 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0AF3279222A2EF1F00154116 /* Build configuration list for PBXProject "AppMercado" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AF3278E22A2EF1F00154116;
+			productRefGroup = 0AF3279822A2EF1F00154116 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AF3279622A2EF1F00154116 /* AppMercado */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AF3279522A2EF1F00154116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A256A1F22ADC8BB00002EC1 /* postPublicacion.php in Resources */,
+				0A256A2322ADCA9400002EC1 /* deletePublicacion.php in Resources */,
+				0AEDC47B22A60D8800A82426 /* getUsuario.php in Resources */,
+				0A256A2122ADC9A000002EC1 /* putPublicacion.php in Resources */,
+				0AF327A522A2EF1F00154116 /* LaunchScreen.storyboard in Resources */,
+				0AEDC4B122A69A9000A82426 /* postUsuarioCorreo.php in Resources */,
+				AC9BAD4422A73A7C001314DB /* putUsuarioTelefono.php in Resources */,
+				AC72851122A816A400846F03 /* getComprasVentas.php in Resources */,
+				0AEDC4A522A6460300A82426 /* getUsuariosTelefonos.php in Resources */,
+				0AEDC4B922A7DE7C00A82426 /* getEmpresas.php in Resources */,
+				0AEDC49122A6306B00A82426 /* postSesion.php in Resources */,
+				0AEDC4B322A69EF300A82426 /* getUsuarioTelefono.php in Resources */,
+				AC9BAD4622A74090001314DB /* putUsuarioCorreo.php in Resources */,
+				0AEDC49722A63F7400A82426 /* postUsuario.php in Resources */,
+				0AEDC4BF22A7E93600A82426 /* postEmpresa.php in Resources */,
+				AC9BAD4222A72C78001314DB /* deleteUsuarioCorreo.php in Resources */,
+				0AEDC4AF22A6998200A82426 /* getUsuariosCorreos.php in Resources */,
+				0AEDC49322A6315100A82426 /* putSesion.php in Resources */,
+				AC9BAD3A22A707D1001314DB /* putUsuario.php in Resources */,
+				0AEDC4A722A646D400A82426 /* postUsuarioTelefono.php in Resources */,
+				0AF327A222A2EF1F00154116 /* Assets.xcassets in Resources */,
+				0AEDC49522A631FD00A82426 /* getSesion.php in Resources */,
+				AC9BAD3C22A71013001314DB /* deleteUsuarioTelefono.php in Resources */,
+				0AEDC48A22A60F0C00A82426 /* AppMercado.vpp in Resources */,
+				0AEDC47E22A60E4200A82426 /* conexion.php in Resources */,
+				0A256A1D22ADC1E700002EC1 /* getPublicacionesEmpresa.php in Resources */,
+				0AEDC48922A60F0C00A82426 /* AppMercado.sql in Resources */,
+				0AEDC4B522A6A67000A82426 /* getUsuarioCorreo.php in Resources */,
+				0AF327A022A2EF1F00154116 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AF3279322A2EF1F00154116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC90C7B522A5B79900EA14C8 /* CorreosTableViewController.swift in Sources */,
+				0A44282A22A3124A001E5B11 /* CrearUsuarioViewController.swift in Sources */,
+				AC9BAD4022A727F7001314DB /* AgregarEditarUsuarioCorreoViewController.swift in Sources */,
+				0AF327AD22A2F33F00154116 /* LoginViewController.swift in Sources */,
+				AC90C7C322A5C28000EA14C8 /* Publicacion.swift in Sources */,
+				AC6BAD8E22A5CA41006E4A69 /* EmpresaCorreo.swift in Sources */,
+				AC90C7B322A5B77200EA14C8 /* TelefonosTableViewController.swift in Sources */,
+				AC90C7B922A5C02800EA14C8 /* Sesion.swift in Sources */,
+				AC90C7BF22A5C18000EA14C8 /* Empresa.swift in Sources */,
+				0AEDC4A922A647D000A82426 /* Encriptador.swift in Sources */,
+				AC6BAD9222A5CB37006E4A69 /* SolicitudDeVentaAutorizada.swift in Sources */,
+				AC6BAD8822A5C87F006E4A69 /* UsuarioTelefono.swift in Sources */,
+				0A44283922A36EB3001E5B11 /* DatosDeSesion.swift in Sources */,
+				0AEDC4BD22A7E70A00A82426 /* VerEmpresaViewController.swift in Sources */,
+				0AEDC48F22A616CE00A82426 /* JsonParser.swift in Sources */,
+				AC90C7C722A5C3DD00EA14C8 /* CompraDetalle.swift in Sources */,
+				AC6BAD8C22A5CA0A006E4A69 /* EmpresaTelefono.swift in Sources */,
+				0AF327B322A303CB00154116 /* Fecha.swift in Sources */,
+				AC90C7C122A5C1F100EA14C8 /* Compra.swift in Sources */,
+				0AF3279B22A2EF1F00154116 /* AppDelegate.swift in Sources */,
+				AC6BAD9022A5CAD4006E4A69 /* SolicitudDeVenta.swift in Sources */,
+				AC90C7C522A5C31600EA14C8 /* Comentario.swift in Sources */,
+				AC90C7AD22A5AFB700EA14C8 /* ConfiguracionViewController.swift in Sources */,
+				0A256A1922ADBCFA00002EC1 /* PublicacionesEmpresaTableViewController.swift in Sources */,
+				0AEDC4BB22A7E6F900A82426 /* AgregarEmpresaViewController.swift in Sources */,
+				0A44284722A44228001E5B11 /* PanelControlViewController.swift in Sources */,
+				0AEDC4B722A7DC2B00A82426 /* EmpresasTableViewController.swift in Sources */,
+				0A256A1B22ADBE9900002EC1 /* AgregarEditarPublicacionEmpresaViewController.swift in Sources */,
+				AC9BAD3E22A722BB001314DB /* AgregarEditarUsuarioTelefonoViewController.swift in Sources */,
+				0AF327B022A3022D00154116 /* Usuario.swift in Sources */,
+				AC6BAD8A22A5C9B3006E4A69 /* UsuarioCorreo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AF3279E22A2EF1F00154116 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AF3279F22A2EF1F00154116 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AF327A322A2EF1F00154116 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AF327A422A2EF1F00154116 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AF327A722A2EF1F00154116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AF327A822A2EF1F00154116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AF327AA22A2EF1F00154116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppMercado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itlag.AppMercado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AF327AB22A2EF1F00154116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppMercado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itlag.AppMercado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AF3279222A2EF1F00154116 /* Build configuration list for PBXProject "AppMercado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF327A722A2EF1F00154116 /* Debug */,
+				0AF327A822A2EF1F00154116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF327A922A2EF1F00154116 /* Build configuration list for PBXNativeTarget "AppMercado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF327AA22A2EF1F00154116 /* Debug */,
+				0AF327AB22A2EF1F00154116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AF3278F22A2EF1F00154116 /* Project object */;
+}
